@@ -1,12 +1,52 @@
-body {
-  background: #1c242d;
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600');
+
+/* reset css */
+    html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+    background: #1c242d;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-default: #000;
+    --color-primary: #2b7dc0;
+    --color-warning: #e23131;
+    --color-success: #4db32e;
+}
+/* scroll bars */
+*{
+    /* For FF and non-webkit browsers */
+    scrollbar-width: thin;
+    scrollbar-color: #222 #333;
+}
+*::-webkit-scrollbar {
+    width: .2rem;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #222;
+    outline: .1rem solid #333;
 }
 .box {
   border: 1px solid #c4c4c4;
   padding: 30px 25px 10px 25px;
   background: white;
   margin: 30px auto;
-  width: 360px;
+  width: 40rem;
 }
 h1.box-logo a {
   text-decoration:none;
