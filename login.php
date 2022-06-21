@@ -33,7 +33,7 @@ if (isset($_POST['username'])){
 }
 ?>
 <form class="box" action="" method="post" name="login">
-<h1 class="box-logo box-title"><a href="https://waytolearnx.com/">Maison des ligues et de tous les sports</a></h1>
+<h1 class="box-logo box-title"><a href="#">MDL</a></h1>
 <h1 class="box-title">Connexion</h1>
 <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur">
 <input type="password" class="box-input" name="password" placeholder="Mot de passe">
